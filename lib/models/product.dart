@@ -64,6 +64,23 @@ class Listado {
     "product_state": productState,
   };
 
+  // json para agregar: {"product_name","product_price","product_image"}
+  Map<String, dynamic> toMapAgregar() => {
+    "product_name": productName,
+    "product_price": productPrice,
+    "product_image": productImage,
+  };
+
+  // json para editar: igual que agregar pero con id y estado
+  Map<String, dynamic> toMapEditar() => {
+    "product_id": productId,
+    ...toMapAgregar(),
+    "product_state": productState.isEmpty ? 'Activo' : productState,
+  };
+
+  // json para eliminar: {"product_id":1}
+  Map<String, dynamic> toMapEliminar() => {"product_id": productId};
+
   Listado copy() => Listado(
     productId: productId,
     productName: productName,

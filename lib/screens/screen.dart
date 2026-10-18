@@ -6,3 +6,9 @@ export 'package:flutter_application_1/screens/productos/create_product_screen.da
 export 'package:flutter_application_1/screens/productos/edit_product_screen.dart';
 export 'package:flutter_application_1/screens/productos/list_product_screen.dart';
 export 'package:flutter_application_1/screens/login/register_screen.dart';
+export 'package:flutter_application_1/screens/categorias/list_categoria_screen.dart';
+export 'package:flutter_application_1/screens/categorias/ver_categoria_screen.dart';
+export 'package:flutter_application_1/screens/categorias/edit_categoria_screen.dart';
+export 'package:flutter_application_1/screens/proveedores/list_proveedor_screen.dart';
+export 'package:flutter_application_1/screens/proveedores/ver_proveedor_screen.dart';
+export 'package:flutter_application_1/screens/proveedores/edit_proveedor_screen.dart';

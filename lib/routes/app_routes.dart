@@ -10,6 +10,14 @@ class AppRoutes {
     'list_product': (BuildContext context) => const ListProductScreen(),
     'create_product': (BuildContext context) => const CreateProductScreen(),
     'edit_product': (BuildContext context) => const EditProductScreen(),
+    // categorías
+    'list_categoria': (BuildContext context) => const ListCategoriaScreen(),
+    'ver_categoria': (BuildContext context) => const VerCategoriaScreen(),
+    'edit_categoria': (BuildContext context) => const EditCategoriaScreen(),
+    // proveedores
+    'list_proveedor': (BuildContext context) => const ListProveedorScreen(),
+    'ver_proveedor': (BuildContext context) => const VerProveedorScreen(),
+    'edit_proveedor': (BuildContext context) => const EditProveedorScreen(),
     'error': (BuildContext context) => const ErrorScreen(),
   };
 

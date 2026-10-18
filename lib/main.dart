@@ -17,6 +17,8 @@ class AppState extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => AuthService()),
         ChangeNotifierProvider(create: (_) => ProductService()),
+        ChangeNotifierProvider(create: (_) => CategoriaService()),
+        ChangeNotifierProvider(create: (_) => ProveedorService()),
       ],
       child: const MainApp(),
     );
@@ -30,7 +32,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'EvaluacionFinal',
+      title: 'ExamenFinal',
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.routes,
       onGenerateRoute: AppRoutes.onGenerateRoute,
