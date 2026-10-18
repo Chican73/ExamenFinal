@@ -1,6 +1,6 @@
-# EvaluacionFinal 📦
+# ExamenFinal
 
-Aplicación móvil hecha en **Flutter** para la asignatura **Computación Móvil** de Ingeniería en Informática, Universidad Mayor.
+Aplicación móvil hecha en Flutter.
 
 Permite iniciar sesión / registrarse con Firebase Authentication y administrar **Productos, Categorías y Proveedores** (listar, ver, crear, editar y eliminar) consumiendo una API REST.
 
@@ -42,20 +42,13 @@ lib/
 
 ## API utilizada
 
-Servidor `http://143.198.118.203:8100/` con autenticación Basic (usuario de prueba del curso).
-
+Servidor `http://143.198.118.203:8100/` con autenticación Basic.
 | Módulo | Listar (GET) | Agregar (POST) | Editar (POST) | Eliminar (POST) |
 |---|---|---|---|---|
 | Productos | `ejemplos/product_list_rest/` | `ejemplos/product_add_rest/` | `ejemplos/product_edit_rest/` | `ejemplos/product_del_rest/` |
 | Categorías | `ejemplos/category_list_rest/` | `ejemplos/category_add_rest/` | `ejemplos/category_edit_rest/` | `ejemplos/category_del_rest/` |
 | Proveedores | `ejemplos/provider_list_rest/` | `ejemplos/provider_add_rest/` | `ejemplos/provider_edit_rest/` | `ejemplos/provider_del_rest/` |
 
-## Cómo ejecutarlo
-
-```bash
-flutter pub get
-flutter run
-```
 
 ## Autor
 
