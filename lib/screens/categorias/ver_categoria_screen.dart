@@ -6,7 +6,6 @@ import '../../themes/my_theme.dart';
 import '../../widgets/widgets.dart';
 import '../error_screen.dart';
 
-/// Detalle de una categoría, con botones para editar y eliminar.
 class VerCategoriaScreen extends StatelessWidget {
   const VerCategoriaScreen({super.key});
 
