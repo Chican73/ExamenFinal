@@ -6,7 +6,6 @@ import '../../themes/my_theme.dart';
 import '../../widgets/widgets.dart';
 import '../error_screen.dart';
 
-/// Detalle de un proveedor, con botones para editar y eliminar.
 class VerProveedorScreen extends StatelessWidget {
   const VerProveedorScreen({super.key});
 
