@@ -7,7 +7,6 @@ import '../../ui/input_decorations.dart';
 import '../../widgets/widgets.dart';
 import '../error_screen.dart';
 
-/// Sirve para agregar (id 0) y para editar un proveedor.
 class EditProveedorScreen extends StatelessWidget {
   const EditProveedorScreen({super.key});
 
