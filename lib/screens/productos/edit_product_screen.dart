@@ -29,7 +29,6 @@ class _ProductScreenBody extends StatelessWidget {
     messenger.showSnackBar(SnackBar(content: Text(text)));
   }
 
-  // Pide confirmación antes de borrar (antes se borraba con un solo toque)
   Future<bool> _confirmarEliminar(BuildContext context) async {
     final respuesta = await showDialog<bool>(
       context: context,
