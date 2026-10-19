@@ -8,7 +8,7 @@ import '../../ui/input_decorations.dart';
 import '../../widgets/widgets.dart';
 import '../error_screen.dart';
 
-/// Sirve para agregar (id 0) y para editar una categoría.
+
 class EditCategoriaScreen extends StatelessWidget {
   const EditCategoriaScreen({super.key});
 
@@ -18,7 +18,7 @@ class EditCategoriaScreen extends StatelessWidget {
     final seleccionada = service.seleccionada;
     if (seleccionada == null) return const ErrorScreen();
     return ChangeNotifierProvider(
-      // se trabaja sobre una copia para no cambiar la original si se cancela
+      
       create: (_) => CategoriaFormProvider(seleccionada.copy()),
       child: _FormularioCategoria(service: service),
     );
